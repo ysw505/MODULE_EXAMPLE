@@ -1,0 +1,1 @@
+cmd_/root/helloModule/simpleMisc.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.0.0-32-generic/scripts/module-common.lds --build-id  -o /root/helloModule/simpleMisc.ko /root/helloModule/simpleMisc.o /root/helloModule/simpleMisc.mod.o

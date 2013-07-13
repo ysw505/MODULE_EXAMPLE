@@ -1,4 +1,4 @@
-obj-m = hello.o
+obj-m = simpleMisc.o
 
 KDIR := /usr/src/linux-headers-3.0.0-32-generic
 PWD := $(shell pwd)
